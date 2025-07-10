@@ -73,7 +73,8 @@ com.example.birthdaycard/
 
 ## 🙌 Acknowledgments
 
-- Background image by [Natalie Bond](https://www.pexels.com/photo/bunch-of-colorful-balloons-3371094/) via Pexels
+- Background image (`androidparty.png`) used from [Google Developer Training Sample App](https://github.com/google-developer-training/basic-android-kotlin-compose-birthday-card-app), under its respective license.
+
 - Made with ❤️ using Kotlin & Jetpack Compose
 
 ---
