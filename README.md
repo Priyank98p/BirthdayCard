@@ -28,7 +28,6 @@ A simple Android app built using **Jetpack Compose** that displays a birthday gr
 | Main Screen |
 |-------------|
 | ![birthday_card_preview](preview.png) |
-> _Tip: You can take a screenshot from the emulator or preview window and save it as `preview.png`._
 
 ---
 
