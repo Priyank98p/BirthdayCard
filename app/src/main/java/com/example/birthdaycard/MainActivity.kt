@@ -50,13 +50,13 @@ fun GreetingText(message:String,modifier: Modifier = Modifier,from : String,wish
         Text(
             text = message,
             fontSize = 85.sp,
-            color = Color.DarkGray,
+            color = Color.Black,
             lineHeight = 100.sp,
             textAlign = TextAlign.Center
         )
         Text(
             text = wish,
-            color = Color.DarkGray,
+            color = Color.Black,
             fontSize = 32.sp,
             lineHeight = 50.sp,
             textAlign = TextAlign.Center,
