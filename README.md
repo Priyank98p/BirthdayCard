@@ -44,7 +44,7 @@ A simple Android app built using **Jetpack Compose** that displays a birthday gr
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/birthday-card-app.git
+   git clone https://github.com/Priyank98p/birthday-card-app.git
    ```
 2. Open the project in Android Studio.
 3. Connect an Android device or emulator.
