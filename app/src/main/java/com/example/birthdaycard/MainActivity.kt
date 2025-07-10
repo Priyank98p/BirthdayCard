@@ -45,8 +45,8 @@ class MainActivity : ComponentActivity() {
 }
 @Composable
 fun GreetingText(message:String,modifier: Modifier = Modifier,from : String,wish:String) {
-    Column(verticalArrangement = Arrangement.Center,
-        modifier = modifier) {
+    Column(verticalArrangement = Arrangement.Center, horizontalAlignment = Alignment.CenterHorizontally,
+        modifier = modifier.fillMaxSize()) {
         Text(
             text = message,
             fontSize = 85.sp,
@@ -81,7 +81,8 @@ val image = painterResource(R.drawable.androidparty)
         Image(
             painter = image,
             contentDescription = null,
-            contentScale = ContentScale.Crop
+            contentScale = ContentScale.Crop,
+            alpha = 0.6F
         )
         GreetingText(message= message,from = from, wish = wish,modifier = Modifier
             .fillMaxSize()
